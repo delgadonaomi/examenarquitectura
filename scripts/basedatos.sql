@@ -282,7 +282,7 @@ BEGIN
 END;
 $$ LANGUAGE plpgsql SECURITY DEFINER;
 
--- Función de auditoría
+-- Función de auditoríaa
 CREATE OR REPLACE FUNCTION audit_sensitive_access(
   action_type TEXT,
   resource_id TEXT,
