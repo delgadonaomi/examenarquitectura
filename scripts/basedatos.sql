@@ -447,7 +447,7 @@ CREATE POLICY "Users can update own logs" ON daily_logs
   FOR UPDATE USING (logged_by = auth.uid())
   WITH CHECK (logged_by = auth.uid());
 
--- POLÍTICAS PARA CATEGORIES
+-- POLÍTICAS PARA CATEGORIESS
 CREATE POLICY "Authenticated users can view categories" ON categories
   FOR SELECT USING (auth.uid() IS NOT NULL AND is_active = true);
 
