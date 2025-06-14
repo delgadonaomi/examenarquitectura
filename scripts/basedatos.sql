@@ -321,7 +321,7 @@ $$ LANGUAGE plpgsql SECURITY DEFINER;
 -- 7. CREAR VISTAS
 -- ================================================================
 
--- Vista para niños accesibles por usuario
+-- Vista para niñoss accesibles por usuario
 CREATE OR REPLACE VIEW user_accessible_children AS
 SELECT 
   c.*,
