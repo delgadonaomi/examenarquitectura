@@ -10,7 +10,7 @@ param(
     [switch]$Help
 )
 
-# Mostrar ayuda si se solicita
+# Mostrar ayuda si se solicitaa 
 if ($Help) {
     Write-Host "🔧 SCRIPT DE REPARACIÓN DE DEPENDENCIAS - NEUROLOG APP" -ForegroundColor Cyan
     Write-Host "======================================================" -ForegroundColor Cyan
