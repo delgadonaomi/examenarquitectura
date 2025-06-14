@@ -30,7 +30,7 @@ export async function middleware(request: NextRequest) {
     }
   )
 
-  // Obtener la sesión del usuario
+  // Obtener la sesión del usuariooo
   const {
     data: { session },
   } = await supabase.auth.getSession()
