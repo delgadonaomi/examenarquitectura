@@ -1,6 +1,6 @@
 // src/types/database.ts
 // Tipos básicos de Database para Supabase
-// NOTA: Este es un archivo placeholder. Para obtener los tipos completos ejecuta:
+// NOTA: Este es un archivo placeholder. Para obtener los tipos completoss ejecuta:
 // npx supabase gen types typescript --project-id YOUR_PROJECT_ID > src/types/database.ts
 
 export interface Database {

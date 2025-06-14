@@ -173,6 +173,7 @@ CREATE TABLE audit_logs (
 -- ================================================================
 
 -- Índices en profiles
+CREATE INDEX idx_profiles_id ON profiles(id);     
 CREATE INDEX idx_profiles_email ON profiles(email);
 CREATE INDEX idx_profiles_role ON profiles(role);
 CREATE INDEX idx_profiles_active ON profiles(is_active);
@@ -203,6 +204,7 @@ CREATE INDEX idx_audit_created ON audit_logs(created_at DESC);
 -- ================================================================
 
 -- Función para actualizar updated_at automáticamente
+-- Esta función se usa para actualizar el campo updated_at en las tablas
 CREATE OR REPLACE FUNCTION handle_updated_at()
 RETURNS TRIGGER AS $$
 BEGIN
